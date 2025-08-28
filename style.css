@@ -1,15 +1,14 @@
 .mylogo{
-    display: inline-block;
     height: 57px;
     width: 57px;
     padding: 30px 0px 30px 0px;
     margin: 0px 0px 0px 80px;
     cursor: pointer;
-    transition: transform 0.3s ease;
 }
 
-.mylogo:hover{
+.hero-img:hover{
     transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .main-nav{
