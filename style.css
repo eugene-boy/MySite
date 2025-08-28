@@ -1,0 +1,84 @@
+.mylogo{
+    height: 57px;
+    width: 57px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 0px 0px 60px;
+    cursor: pointer;
+}
+
+.main-nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    list-style: none;
+    gap: 60px;
+}
+
+#nav-list li{
+    margin: 5px 0;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3 ease;
+}
+
+#nav-list li:hover{
+    color:#BF7D3A;
+}
+
+#nav-list li:hover a{
+    color:#BF7D3A;
+}
+
+#nav-list li a::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #BF7D3A;
+    transition: width 0.3s ease;
+}
+
+#nav-list li:hover a::after{
+    width:100%;
+}
+
+#nav-list a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-list a:hover{
+    color:#BF7D3A;
+    border-bottom: 2px solid #BF7D3A;
+}
+
+.button{
+     padding: 10px 30px;
+     margin: 0px 60px 0px 0px;
+     background-color: #BF7D3A;
+     color: #EFEFEF;
+     border-radius: 10px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 1rem;
+     cursor: pointer;
+}
+.body{
+    background-color: black;
+    
+}
