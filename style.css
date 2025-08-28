@@ -79,6 +79,7 @@
      font-family: 'Poppins', sans-serif;
      font-size: 1rem;
      cursor: pointer;
+     border: none;
 }
 
 .hero-section{
@@ -116,8 +117,13 @@
     margin: 0;
 }
 .hire-me-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 30px 10px 30px;
     margin: 0;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #BF7D3A;
+    color: white;
+    border: none;
 }
 
 .hero-text{
