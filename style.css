@@ -2,7 +2,7 @@
     height: 57px;
     width: 57px;
     padding: 30px 0px 30px 0px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 80px;
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@
 
 .button{
      padding: 10px 30px;
-     margin: 0px 60px 0px 0px;
+     margin: 0px 80px 0px 0px;
      background-color: #BF7D3A;
      color: #EFEFEF;
      border-radius: 10px;
@@ -88,5 +88,12 @@
 .hero-img{
     text-align: right;
     padding: 100px 0px 100px 0px;
-    padding-right: 60px;
+    padding-right: 80px;
+}
+
+.sub-text{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 80px;
+    
 }
