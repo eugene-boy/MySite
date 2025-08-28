@@ -89,6 +89,7 @@
 }
 .button:hover{
     transform:scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .hero-section{
@@ -121,15 +122,16 @@
 
 .main-text{
     color:#BF7D3A;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bolder;
     margin: 0;
 }
+
 .hire-me-btn{
-    padding: 10px 30px 10px 30px;
+    padding: 10px 40px 10px 40px;
     margin: 0;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #BF7D3A;
     color: white;
     border: none;
