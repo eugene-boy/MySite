@@ -84,26 +84,44 @@
 .hero-section{
     display: flex;
     background-color: black;
-    padding: 100px 80px 100px 80px;
+    padding: 100px 250px 100px 250px;
     justify-content: space-between;
+}
+
+.info-text{
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .text{
     color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    margin: 0;
 }
 
 .text::after {
   content: ""; 
   display: block;
-  width: 100%;       
-  height: 3px;       
+  width: 40%;       
+  height: 2px;       
   background: #BF7D3A; 
-  margin-top: 10px;  
+  margin-top: 10px;
+  border-radius: 50px;
 }
 
-.hero-img{
+.main-text{
+    color:#BF7D3A;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+.hire-me-btn{
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
 
+.hero-text{
+    margin: 0;
+    padding-top: 30px;
 }
 
