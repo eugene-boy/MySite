@@ -1,9 +1,15 @@
 .mylogo{
+    display: inline-block;
     height: 57px;
     width: 57px;
     padding: 30px 0px 30px 0px;
     margin: 0px 0px 0px 80px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.mylogo:hover{
+    transform: scale(1.05);
 }
 
 .main-nav{
@@ -18,6 +24,7 @@
     filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 0.2));
     position: relative;
     z-index: 10;
+    overflow: visible;
 }
 
 #nav-list{
@@ -127,6 +134,7 @@
     background-color: #BF7D3A;
     color: white;
     border: none;
+    border-radius: 5px;
 }
 
 .hero-text{
