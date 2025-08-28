@@ -81,6 +81,9 @@
      cursor: pointer;
      border: none;
 }
+.button:hover{
+    transform:scale(1.05);
+}
 
 .hero-section{
     display: flex;
