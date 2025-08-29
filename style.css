@@ -6,11 +6,6 @@
     cursor: pointer;
 }
 
-.hero-img:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
 .main-nav{
     display: flex;
     height: 100px;
@@ -81,7 +76,7 @@
      margin: 0px 80px 0px 0px;
      background-color: #BF7D3A;
      color: #EFEFEF;
-     border-radius: 10px;
+     border-radius: 5px;
      font-family: 'Poppins', sans-serif;
      font-size: 1rem;
      cursor: pointer;
@@ -122,7 +117,7 @@
 
 .main-text{
     color:#BF7D3A;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     margin: 0;
 }
