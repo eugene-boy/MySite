@@ -95,7 +95,7 @@
 .hero-section{
     display: flex;
     background-color: black;
-    padding: 100px 250px 100px 250px;
+    padding: 100px 80px 100px 80px;
     justify-content: space-between;
 }
 
