@@ -138,3 +138,27 @@
     padding-top: 30px;
 }
 
+.hero-img{
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+
+.hero-profile, .hero-profile-main{
+    width: 300px;  
+    height: auto;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-profile-main{
+    z-index:2;
+}
+
+.hero-profile-bottom{
+    z-index:1;
+}
+
