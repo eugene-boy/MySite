@@ -141,15 +141,31 @@
 .hero-img {
   position: relative;
   display: inline-block;
-}
-
-.hero-profile-bottom, 
-.hero-profile-main {
-  
-  top: 0;
-  left: 0;
-  width: 300px;  
+  width: 300px;   /* same as main image */
   height: auto;
 }
-.hero-profile-main { z-index: 2; } /* on top */
-.hero-profile-bottom { z-index: 1; } /* behind */
+
+.hero-profile-main, 
+.hero-profile-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;   /* fit container */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.hero-profile-main {
+  z-index: 2; /* on top */
+}
+
+.hero-profile-bottom {
+  z-index: 1;
+  transform: scale(0.9); /* smaller at start */
+}
+
+/* Hover effect */
+.hero-img:hover .hero-profile-bottom {
+  transform: scale(1);
+}
+
