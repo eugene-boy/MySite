@@ -101,7 +101,7 @@
 
 .text{
     color: white;
-    font-size: 14px;
+    font-size: .8vw;
     margin: 0;
 }
 
@@ -117,7 +117,7 @@
 
 .main-text{
     color:#BF7D3A;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: bolder;
     margin: 0;
 }
@@ -126,11 +126,15 @@
     padding: 10px 40px 10px 40px;
     margin: 0;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     background-color: #BF7D3A;
     color: white;
     border: none;
     border-radius: 5px;
+}
+.hire-me-btn:hover{
+    transform:scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .hero-text{
@@ -138,34 +142,5 @@
     padding-top: 30px;
 }
 
-.hero-img {
-  position: relative;
-  display: inline-block;
-  width: 300px;   /* same as main image */
-  height: auto;
-}
 
-.hero-profile-main, 
-.hero-profile-bottom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;   /* fit container */
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.hero-profile-main {
-  z-index: 2; /* on top */
-}
-
-.hero-profile-bottom {
-  z-index: 1;
-  transform: scale(0.9); /* smaller at start */
-}
-
-/* Hover effect */
-.hero-img:hover .hero-profile-bottom {
-  transform: scale(1);
-}
 
