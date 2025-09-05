@@ -122,20 +122,39 @@
     margin: 0;
 }
 
+/* Hire Button */
 .hire-me-btn{
     padding: 10px 40px 10px 40px;
-    margin: 0;
+    margin-right: 20px;
     cursor: pointer;
     font-size: 1vw;
     background-color: #BF7D3A;
-    color: white;
-    border: none;
+    color: rgb(240, 240, 240);
+    border: solid 1px #BF7D3A;
     border-radius: 5px;
 }
 .hire-me-btn:hover{
     transform:scale(1.05);
     transition: transform 0.3s ease;
 }
+
+/* More Information Button */
+.more-info-btn{
+    padding: 10px 40px 10px 40px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1vw;
+    background-color: transparent;
+    color: #BF7D3A;
+    border:solid 1px #BF7D3A;
+    border-radius: 5px;
+}
+.more-info-btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
 
 .hero-text{
     margin: 0;
@@ -161,4 +180,5 @@ color: cyan;
     padding-left: 15px;             
     line-height: 1.6;   
 }
+
 
