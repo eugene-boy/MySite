@@ -90,7 +90,7 @@
 .hero-section{
     display: flex;
     background-color: black;
-    padding: 100px 80px 100px 80px;
+    padding: 80px 80px 80px 80px;
     justify-content: space-between;
 }
 
@@ -120,6 +120,7 @@
     font-size: 3vw;
     font-weight:600;
     margin: 0;
+    
 }
 
 /* Hire Button */
@@ -181,4 +182,6 @@ color: cyan;
     line-height: 1.6;   
 }
 
-
+.hero-img{
+    align-self: center;
+}
