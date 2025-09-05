@@ -1,4 +1,4 @@
-const titles = ["Pogi", "UI/UX Designer", "Web Developer"];
+const titles = ["Pogi...", "UI/UX Designer...", "Web Developer..."];
   const element = document.querySelector(".animated-text");
 
   let titleIndex = 0;
