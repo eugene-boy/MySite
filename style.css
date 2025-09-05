@@ -118,7 +118,7 @@
 .main-text{
     color:#BF7D3A;
     font-size: 3vw;
-    font-weight: bolder;
+    font-weight:600;
     margin: 0;
 }
 
@@ -142,5 +142,15 @@
     padding-top: 30px;
 }
 
+.animated-text{
+color: cyan;
+}
+
+.animated-text::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+  margin-left: 5px;
+  color:cyan;
+}
 
 
