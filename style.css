@@ -108,7 +108,7 @@
 .text::after {
   content: ""; 
   display: block;
-  width: 40%;       
+  width: 30%;       
   height: 2px;       
   background: #BF7D3A; 
   margin-top: 10px;
@@ -153,4 +153,12 @@ color: cyan;
   color:cyan;
 }
 
+.description-text{
+    position: relative;
+    font-size: .8vw;
+    font-weight: normal;
+    border-left: 4px solid #BF7D3A; 
+    padding-left: 15px;             
+    line-height: 1.6;   
+}
 
